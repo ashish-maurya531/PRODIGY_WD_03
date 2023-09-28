@@ -1,0 +1,141 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+
+}
+html{
+    width:100%;
+    height:90%;
+   
+    
+    font-family: "Poppins", sans-serif;
+    background-size: cover;
+   
+
+    
+}
+body{
+    width:100%;
+    /* height:auto; */
+   
+    background-image: url("background.png");
+    font-family: "Poppins", sans-serif;
+    background-size:COVER;
+    background-position-Y:-60px ;
+    
+
+    
+}
+.card{
+    
+    width: 90%;
+    max-width:400px;
+    background-color: rgba(255,255,255,0.06);
+    
+    margin:100px auto 0;
+    
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    font-family: 'Poppins',sans-serif;
+    color: #fcfcfc;
+    padding:40px 35px;
+    text-align:center;
+    
+}
+
+
+
+
+.search{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    pointer-events:all;
+}
+.search input{
+    border:0;
+    outline:0;
+    background: #ebfffc;
+    color:#555;
+    padding:1px 20px;
+    height:60px;
+    border-radius:30px;
+    flex:1;
+    margin-right:16px;
+    font-size: 18px;
+
+}
+.search button{
+    border:0;
+    outline: 0;
+    background: #ebebeb;
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    cursor: pointer;
+    
+
+}
+.search button img{
+    width :16px;
+}
+
+.weather-icon{
+    width:170px;
+    margin-top:30px;
+    user-select: none;
+}
+.weather h1{
+    font-size:80px;
+    font-weight:500;
+    user-select: none;
+}
+.weather h2{
+    font-size:45px;
+    font-weight:400;
+    margin-top:-10px;
+    user-select: none;
+}
+.details{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+    user-select: none;
+
+}
+.col{
+    display:flex;
+    align-items: center;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    
+}
+.col img{
+    width:40px;
+    margin-right:10px ;
+}
+
+.humidity, .wind{
+    font-family: "Poppins", sans-serif;
+    font-size:28px;
+}
+
+
+.weather{
+    display: none ;
+}
+.error{
+    font-family: "Poppins", sans-serif;
+    display: none;
+    font-size: 28px;
+    margin-top: 20px;
+    
+    animation: ease-in 1s  infinite ;
+}
+
